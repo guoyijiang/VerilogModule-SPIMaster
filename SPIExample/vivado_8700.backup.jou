@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Aug 08 14:46:32 2017
+# Process ID: 8700
+# Current directory: D:/Projects/VivadoProject/XC7A35TFTG256_1/templete/NewBaseExample
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15224 D:\Projects\VivadoProject\XC7A35TFTG256_1\templete\NewBaseExample\NewBase.xpr
+# Log file: D:/Projects/VivadoProject/XC7A35TFTG256_1/templete/NewBaseExample/vivado.log
+# Journal file: D:/Projects/VivadoProject/XC7A35TFTG256_1/templete/NewBaseExample\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Projects/VivadoProject/XC7A35TFTG256_1/templete/NewBaseExample/NewBase.xpr
+remove_files  -fileset fifo_generator_0 D:/Projects/VivadoProject/XC7A35TFTG256_1/templete/NewBaseExample/NewBase.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci
+file delete -force D:/Projects/VivadoProject/XC7A35TFTG256_1/templete/NewBaseExample/NewBase.srcs/sources_1/ip/fifo_generator_0
+file delete -force D:/Projects/VivadoProject/XC7A35TFTG256_1/templete/NewBaseExample/NewBase.ip_user_files/ip/fifo_generator_0 D:/Projects/VivadoProject/XC7A35TFTG256_1/templete/NewBaseExample/NewBase.ip_user_files/sim_scripts/fifo_generator_0
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

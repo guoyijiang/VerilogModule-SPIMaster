@@ -1,0 +1,24 @@
+D:/Projects/Module/SPI/spiMasterNew/SIM/dac8811.sv {1 {vlog -work work -vopt -sv D:/Projects/Module/SPI/spiMasterNew/SIM/dac8811.sv
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Counter
+-- Compiling module DACx811
+
+Top level modules:
+	DACx811
+
+} {} {}} D:/Projects/Module/SPI/spiMasterNew/SIM/testbench.v {1 {vlog -work work -vopt D:/Projects/Module/SPI/spiMasterNew/SIM/testbench.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} D:/Projects/Module/SPI/spiMasterNew/SIM/SPIMaster.v {1 {vlog -work work -vopt D:/Projects/Module/SPI/spiMasterNew/SIM/SPIMaster.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Counter
+-- Compiling module SPIMaster
+
+Top level modules:
+	SPIMaster
+
+} {} {}}
